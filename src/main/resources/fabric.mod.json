@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "leashable",
+	"version": "${version}",
+	"name": "Leashable",
+	"description": "Lead almost any mob.",
+	"authors": [
+		"Kim-Lan"
+	],
+	"contact": {
+		"homepage": "https://github.com/Kim-Lan",
+		"sources": "https://github.com/Kim-Lan/leashable"
+	},
+	"license": "ARR",
+	"icon": "assets/leashable/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kimlan.leashable.Leashable"
+		]
+	},
+	"mixins": [
+		"leashable.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
