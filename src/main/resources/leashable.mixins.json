@@ -3,7 +3,13 @@
 	"package": "com.kimlan.leashable.mixin",
 	"compatibilityLevel": "JAVA_25",
 	"mixins": [
-		"MobMixin"
+		"AbstractVillagerMixin",
+		"AgeableWaterCreatureMixin",
+		"AmbientCreatureMixin",
+		"MobMixin",
+		"PandaMixin",
+		"TurtleMixin",
+		"WaterAnimalMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
